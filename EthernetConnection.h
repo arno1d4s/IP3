@@ -9,6 +9,7 @@ class EthernetConnection : public ConnectionMethod
         void connect();
         void disconnect();
         int getSpeed();
+        int getSignalStrenght();
 };
 
 #endif

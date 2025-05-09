@@ -4,12 +4,12 @@
 
 void EthernetConnection::connect()
 {
-    std::cout << "Connecting to internet via Ethernet..." << std::endl;
+    std::cout << "Connected to internet via Ethernet!" << std::endl;
 }
 
 void EthernetConnection::disconnect()
 {
-    std::cout << "Disconnecting Ethernet...\n" << std::endl;
+    std::cout << "Disconnected from internet via WiFi!\n" << std::endl;
 }
 
 int EthernetConnection::getSpeed()

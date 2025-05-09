@@ -4,12 +4,12 @@
 
 void WiFiConnection::connect()
 {
-    std::cout << "Connecting to internet via WiFi..." << std::endl;
+    std::cout << "Connected to internet via WiFi!" << std::endl;
 }
 
 void WiFiConnection::disconnect()
 {
-    std::cout << "Disconnecting WiFi...\n" << std::endl;
+    std::cout << "Disconnected from internet via WiFi!\n" << std::endl;
 }
 
 int WiFiConnection::getSpeed()

@@ -37,7 +37,7 @@ void NetworkManager::checkSignal()
 {
     if(connectionMethod)
     {
-        std::cout << "Signal strenght: " << connectionMethod->getSignalStrenght() << "%" <<std::endl;
+        std::cout << "Signal strenght: " << connectionMethod->getSignalStrength() << "%" <<std::endl;
     }
     else
     {

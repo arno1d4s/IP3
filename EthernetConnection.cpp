@@ -17,7 +17,7 @@ int EthernetConnection::getSpeed()
     return rand() % 800 + 100;
 }
 
-int EthernetConnection::getSignalStrenght()
+int EthernetConnection::getSignalStrength()
 {
     return 100;
 }

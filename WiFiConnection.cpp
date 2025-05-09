@@ -17,7 +17,7 @@ int WiFiConnection::getSpeed()
     return rand() % 100 + 15;
 }
 
-int WiFiConnection::getSignalStrenght()
+int WiFiConnection::getSignalStrength()
 {
     return rand() % 100 + 1;
 }

@@ -4,7 +4,7 @@
 
 void EthernetConnection::connect()
 {
-    std::cout << "Connecting to internet via Ethernet...\n" << std::endl;
+    std::cout << "Connecting to internet via Ethernet..." << std::endl;
 }
 
 void EthernetConnection::disconnect()

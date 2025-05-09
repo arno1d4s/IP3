@@ -4,7 +4,7 @@
 
 void WiFiConnection::connect()
 {
-    std::cout << "Connecting to internet via WiFi...\n" << std::endl;
+    std::cout << "Connecting to internet via WiFi..." << std::endl;
 }
 
 void WiFiConnection::disconnect()

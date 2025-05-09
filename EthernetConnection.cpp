@@ -9,7 +9,7 @@ void EthernetConnection::connect()
 
 void EthernetConnection::disconnect()
 {
-    std::cout << "Disconnected from internet via WiFi!\n" << std::endl;
+    std::cout << "Disconnected from internet via Ethernet!\n" << std::endl;
 }
 
 int EthernetConnection::getSpeed()
